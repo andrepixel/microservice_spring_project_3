@@ -1,9 +1,9 @@
-package com.devandre.microservice_spring_project_1.shared.dtos;
-
-import com.devandre.microservice_spring_project_1.shared.enums.ClassificationMovie;
-import com.devandre.microservice_spring_project_1.shared.enums.TypeOfMovie;
+package com.example.microservice_spring_project_3.shared.dtos;
 
 import java.util.Objects;
+
+import com.example.microservice_spring_project_3.shared.enums.ClassificationMovie;
+import com.example.microservice_spring_project_3.shared.enums.TypeOfMovie;
 
 public class MovieDTO {
     private String name;

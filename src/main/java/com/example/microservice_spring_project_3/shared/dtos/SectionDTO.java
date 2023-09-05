@@ -1,10 +1,10 @@
-package com.devandre.microservice_spring_project_1.shared.dtos;
-
-import com.devandre.microservice_spring_project_1.shared.enums.State;
-import com.devandre.microservice_spring_project_1.shared.enums.TypeSection;
+package com.example.microservice_spring_project_3.shared.dtos;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
+
+import com.example.microservice_spring_project_3.shared.enums.State;
+import com.example.microservice_spring_project_3.shared.enums.TypeSection;
 
 public class SectionDTO {
     private String codeSection;

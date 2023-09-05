@@ -1,4 +1,4 @@
-package com.devandre.microservice_spring_project_1.shared.dtos;
+package com.example.microservice_spring_project_3.shared.dtos;
 
 import java.util.Objects;
 

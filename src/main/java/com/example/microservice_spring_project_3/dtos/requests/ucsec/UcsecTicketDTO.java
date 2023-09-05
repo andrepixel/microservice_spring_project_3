@@ -1,14 +1,16 @@
-package com.example.microservice_spring_project_3.dtos.ucsec;
+package com.example.microservice_spring_project_3.dtos.requests.ucsec;
 
-import com.devandre.microservice_spring_project_1.shared.dtos.ClientDTO;
-import com.devandre.microservice_spring_project_1.shared.dtos.SectionDTO;
-import com.devandre.microservice_spring_project_1.shared.dtos.TicketDTO;
-import com.devandre.microservice_spring_project_1.shared.enums.ListOfCompanies;
-import com.devandre.microservice_spring_project_1.shared.enums.StatusOfTicket;
+import com.example.microservice_spring_project_3.shared.dtos.ClientDTO;
+import com.example.microservice_spring_project_3.shared.dtos.SectionDTO;
+import com.example.microservice_spring_project_3.shared.dtos.TicketDTO;
+import com.example.microservice_spring_project_3.shared.enums.ListOfCompanies;
+import com.example.microservice_spring_project_3.shared.enums.StatusOfTicket;
+import org.springframework.validation.annotation.Validated;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@Validated
 public class UcsecTicketDTO extends TicketDTO {
     public UcsecTicketDTO(
             UUID id,

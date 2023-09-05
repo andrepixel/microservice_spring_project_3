@@ -1,11 +1,11 @@
-package com.example.microservice_spring_project_3.dtos.constellation;
-
-import com.devandre.microservice_spring_project_1.shared.dtos.MovieDTO;
-import com.devandre.microservice_spring_project_1.shared.dtos.SectionDTO;
-import com.devandre.microservice_spring_project_1.shared.enums.State;
-import com.devandre.microservice_spring_project_1.shared.enums.TypeSection;
+package com.example.microservice_spring_project_3.dtos.requests.constellation;
 
 import java.time.LocalDateTime;
+
+import com.example.microservice_spring_project_3.shared.dtos.MovieDTO;
+import com.example.microservice_spring_project_3.shared.dtos.SectionDTO;
+import com.example.microservice_spring_project_3.shared.enums.State;
+import com.example.microservice_spring_project_3.shared.enums.TypeSection;
 
 public class ConstellationSectionDTO extends SectionDTO {
     public ConstellationSectionDTO() {

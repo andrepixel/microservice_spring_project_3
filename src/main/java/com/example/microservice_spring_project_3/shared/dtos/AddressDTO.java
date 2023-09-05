@@ -1,8 +1,8 @@
-package com.devandre.microservice_spring_project_1.shared.dtos;
-
-import com.devandre.microservice_spring_project_1.shared.enums.State;
+package com.example.microservice_spring_project_3.shared.dtos;
 
 import java.util.Objects;
+
+import com.example.microservice_spring_project_3.shared.enums.State;
 
 public class AddressDTO {
     private String typeLocal;

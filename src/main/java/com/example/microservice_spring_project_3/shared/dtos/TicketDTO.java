@@ -1,7 +1,7 @@
-package com.devandre.microservice_spring_project_1.shared.dtos;
+package com.example.microservice_spring_project_3.shared.dtos;
 
-import com.devandre.microservice_spring_project_1.shared.enums.ListOfCompanies;
-import com.devandre.microservice_spring_project_1.shared.enums.StatusOfTicket;
+import com.example.microservice_spring_project_3.shared.enums.ListOfCompanies;
+import com.example.microservice_spring_project_3.shared.enums.StatusOfTicket;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

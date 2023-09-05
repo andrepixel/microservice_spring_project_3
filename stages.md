@@ -1,5 +1,5 @@
 * mongo
-  * create connection
+  * create connection (OK)
   * create template document
   * create validation document 
 

@@ -1,7 +1,7 @@
-package com.example.microservice_spring_project_3.dtos.ucsec;
+package com.example.microservice_spring_project_3.dtos.requests.ucsec;
 
-import com.devandre.microservice_spring_project_1.shared.dtos.AddressDTO;
-import com.devandre.microservice_spring_project_1.shared.dtos.ClientDTO;
+import com.example.microservice_spring_project_3.shared.dtos.AddressDTO;
+import com.example.microservice_spring_project_3.shared.dtos.ClientDTO;
 
 public class UcsecClientDTO extends ClientDTO {
     public UcsecClientDTO() {

@@ -1,8 +1,8 @@
-package com.example.microservice_spring_project_3.dtos.ryujin;
+package com.example.microservice_spring_project_3.dtos.requests.ryujin;
 
-import com.devandre.microservice_spring_project_1.shared.dtos.MovieDTO;
-import com.devandre.microservice_spring_project_1.shared.enums.ClassificationMovie;
-import com.devandre.microservice_spring_project_1.shared.enums.TypeOfMovie;
+import com.example.microservice_spring_project_3.shared.dtos.MovieDTO;
+import com.example.microservice_spring_project_3.shared.enums.ClassificationMovie;
+import com.example.microservice_spring_project_3.shared.enums.TypeOfMovie;
 
 public class RyujinMovieDTO extends MovieDTO {
     public RyujinMovieDTO() {

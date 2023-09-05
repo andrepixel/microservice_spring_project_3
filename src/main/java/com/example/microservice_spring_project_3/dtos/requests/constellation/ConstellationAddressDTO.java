@@ -1,7 +1,7 @@
-package com.example.microservice_spring_project_3.dtos.constellation;
+package com.example.microservice_spring_project_3.dtos.requests.constellation;
 
-import com.devandre.microservice_spring_project_1.shared.dtos.AddressDTO;
-import com.devandre.microservice_spring_project_1.shared.enums.State;
+import com.example.microservice_spring_project_3.shared.dtos.AddressDTO;
+import com.example.microservice_spring_project_3.shared.enums.State;
 
 public class ConstellationAddressDTO extends AddressDTO {
     public ConstellationAddressDTO() {
