@@ -1,14 +1,14 @@
-package com.example.microservice_spring_project_3.dtos.requests.ucsec;
+package com.example.microservice_spring_project_3.dtos.requests.constellation;
 
 import com.example.microservice_spring_project_3.shared.dtos.MovieDTO;
 import com.example.microservice_spring_project_3.shared.enums.ClassificationMovie;
 import com.example.microservice_spring_project_3.shared.enums.TypeOfMovie;
 
-public class UcsecMovieDTO extends MovieDTO {
-    public UcsecMovieDTO() {
+public class ConstellationMovieRequestDTO extends MovieDTO {
+    public ConstellationMovieRequestDTO() {
     }
 
-    public UcsecMovieDTO(
+    public ConstellationMovieRequestDTO(
             String name,
             String author,
             String year,

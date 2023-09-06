@@ -5,18 +5,18 @@ import com.example.microservice_spring_project_3.shared.dtos.SectionDTO;
 import com.example.microservice_spring_project_3.shared.dtos.TicketDTO;
 import com.example.microservice_spring_project_3.shared.enums.ListOfCompanies;
 import com.example.microservice_spring_project_3.shared.enums.StatusOfTicket;
-import org.springframework.validation.annotation.Validated;
+import jakarta.validation.constraints.NotBlank;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.UUID;
 
-@Validated
-public class ConstellationTicketDTO extends TicketDTO {
+
+public class FreestarTicketRequestDTO extends TicketDTO {
+    @NotBlank
     private UUID tokenGenerated;
 
-    public ConstellationTicketDTO(
-            UUID id,
+    public FreestarTicketRequestDTO(
             SectionDTO section,
             ClientDTO client,
             LocalDateTime dateOfTicketGenerated,
@@ -25,7 +25,6 @@ public class ConstellationTicketDTO extends TicketDTO {
             UUID tokenGenerated
     ) {
         super(
-                id,
                 section,
                 client,
                 dateOfTicketGenerated,
@@ -40,7 +39,7 @@ public class ConstellationTicketDTO extends TicketDTO {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        ConstellationTicketDTO that = (ConstellationTicketDTO) o;
+        FreestarTicketRequestDTO that = (FreestarTicketRequestDTO) o;
         return Objects.equals(
                 tokenGenerated,
                 that.tokenGenerated

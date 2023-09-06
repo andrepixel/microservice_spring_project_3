@@ -1,13 +1,13 @@
-package com.example.microservice_spring_project_3.dtos.requests.ucsec;
+package com.example.microservice_spring_project_3.dtos.requests.constellation;
 
 import com.example.microservice_spring_project_3.shared.dtos.AddressDTO;
 import com.example.microservice_spring_project_3.shared.dtos.ClientDTO;
 
-public class UcsecClientDTO extends ClientDTO {
-    public UcsecClientDTO() {
+public class ConstellationClientRequestDTO extends ClientDTO {
+    public ConstellationClientRequestDTO() {
     }
 
-    public UcsecClientDTO(
+    public ConstellationClientRequestDTO(
             String name,
             String age,
             String email,

@@ -1,4 +1,4 @@
-package com.example.microservice_spring_project_3.dtos.requests.ucsec;
+package com.example.microservice_spring_project_3.dtos.requests.constellation;
 
 import java.time.LocalDateTime;
 
@@ -7,11 +7,11 @@ import com.example.microservice_spring_project_3.shared.dtos.SectionDTO;
 import com.example.microservice_spring_project_3.shared.enums.State;
 import com.example.microservice_spring_project_3.shared.enums.TypeSection;
 
-public class UcsecSectionDTO extends SectionDTO {
-    public UcsecSectionDTO() {
+public class ConstellationSectionRequestDTO extends SectionDTO {
+    public ConstellationSectionRequestDTO() {
     }
 
-    public UcsecSectionDTO(
+    public ConstellationSectionRequestDTO(
             String codeSection,
             Integer quantityOfArmChair,
             MovieDTO movie,
